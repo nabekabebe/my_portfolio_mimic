@@ -107,17 +107,18 @@
                             <table cellpadding="90">
                                 <tr>
                                     <td>
-                                        <form>
+                                        <form action="mailto:nabekabebe6@gmail.com" method="Get" enctype="text/plain">
 
                                             <table border="0" align="center">
                                                 <tr>
                                                     <td align="left" width="200px">
-                                                        <input height="50px" placeholder="Name" type="text" name="fname"
+                                                        <input height="50px" placeholder="Enter your name here..." type="text" name="fname"
                                                             required size="60" pattern="[a-zA-Z]{4,}"
                                                             title="Username: only letters with more than 4 charachters">
-                                                        <input placeholder="email" type="email" name="email" required
-                                                            size="60" pattern="	
-                                                ^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" title="4 to 8 lowercase letters">
+                                                        <input placeholder="Enter your email here..." type="email" name="email" required
+                                                            size="60" pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" title="email format not accepted">
+                                                            <input type="url" name="Optional website address here..." required size="45"
+                                                            pattern="https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)">    
                                                         <textarea placeholder="message" name="message" cols="60"
                                                             rows="14"></textarea><br><br>
 
