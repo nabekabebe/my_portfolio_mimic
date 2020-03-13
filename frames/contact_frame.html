@@ -142,6 +142,11 @@
                                                             type="text" name="fname" required size="60"
                                                             pattern="[a-zA-Z]{4,}"
                                                             title="Username: only letters with more than 4 charachters">
+
+                                                            <input height="50px" placeholder="Enter phone no with country code.."
+                                                            type="tel" name="tel" required size="60"
+                                                            pattern="^\+[0-9]{12}"
+                                                            title="Please provide correct phone number!">
                                                         <input placeholder="Enter your email here..." type="email"
                                                             name="email" required size="60"
                                                             pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
@@ -150,8 +155,10 @@
                                                             name="url" required size="60"
                                                             pattern="https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)">
                                                         <textarea placeholder="message" name="message" cols="60"
-                                                            rows="14"></textarea><br><br>
-
+                                                            rows="14"></textarea>
+                                                            <br><br>Keep me updated? &nbsp;&nbsp;
+                                                            <input required type="checkbox" name="checker">
+                                                            <br><br>
                                                         <button>
                                                             <table>
                                                                 <tr>
